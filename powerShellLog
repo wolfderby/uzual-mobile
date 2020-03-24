@@ -1,0 +1,104 @@
+PS C:\appDev\reactNative\uzual4b\uzual-mobile> yarn start                                                                                   yarn run v1.22.0
+$ expo start
+Starting project at C:\appDev\reactNative\uzual4b\uzual-mobile
+Expo DevTools is running at http://localhost:19002
+Opening DevTools in the browser... (press shift-d to disable)
+Your project is in SDK version >= 33.0.0, but the expo package version seems to be older.
+Error: node_modules directory is missing. Please run `npm install` in your project directory.
+Couldn't start project. Please fix the errors and restart the project.
+Set EXPO_DEBUG=true in your env to view the stack trace.
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+PS C:\appDev\reactNative\uzual4b\uzual-mobile> yarn install                                                                                 yarn install v1.22.0
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+info fsevents@1.2.9: The platform "win32" is incompatible with this module.
+info "fsevents@1.2.9" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+warning " > @expo/vector-icons@9.0.0" has incorrect peer dependency "expo-font@^2.0.0".
+warning "expo > react-google-maps@9.4.5" has unmet peer dependency "@types/googlemaps@^3.0.0".
+warning "expo > react-google-maps@9.4.5" has unmet peer dependency "@types/markerclustererplus@^2.1.29".
+warning "expo > react-google-maps@9.4.5" has unmet peer dependency "@types/react@^15.0.0 || ^16.0.0".
+warning "expo > react-google-maps@9.4.5" has unmet peer dependency "react-dom@^15.0.0 || ^16.0.0".
+warning "expo > react-native-reanimated@1.0.1" has incorrect peer dependency "react@16.0.0-alpha.6".
+warning "expo > react-native-reanimated@1.0.1" has incorrect peer dependency "react-native@^0.44.1".
+warning " > react-apollo@2.5.5" has unmet peer dependency "react-dom@^15.0.0 || ^16.0.0".
+warning "react-native > metro-react-native-babel-transformer@0.51.0" has unmet peer dependency "@babel/core@*".
+warning "react-native > @react-native-community/cli > metro-react-native-babel-transformer@0.51.1" has unmet peer dependency "@babel/core@*".
+warning "react-navigation > @react-navigation/native@3.5.0" has unmet peer dependency "react-native-gesture-handler@*".
+warning "react-navigation > react-navigation-drawer@1.2.1" has unmet peer dependency "react-native-gesture-handler@^1.0.12".
+warning "react-navigation > react-navigation-drawer@1.2.1" has unmet peer dependency "react-native-screens@^1.0.0 || ^1.0.0-alpha".
+warning "react-navigation > react-navigation-stack@1.4.0" has unmet peer dependency "react-native-gesture-handler@^1.0.0".
+warning "react-navigation > react-navigation-stack@1.4.0" has unmet peer dependency "react-native-screens@^1.0.0 || ^1.0.0-alpha".
+warning "react-navigation > react-navigation-tabs@1.1.4" has unmet peer dependency "react-native-screens@^1.0.0 || ^1.0.0-alpha".
+warning " > styled-components@4.2.0" has unmet peer dependency "react-dom@>= 16.3.0".
+warning "jest-expo > babel-jest@24.8.0" has unmet peer dependency "@babel/core@^7.0.0".
+warning "jest-expo > babel-jest > babel-preset-jest@24.6.0" has unmet peer dependency "@babel/core@^7.0.0".
+[4/4] Building fresh packages...
+Done in 66.92s.
+PS C:\appDev\reactNative\uzual4b\uzual-mobile> yarn start                                                                                   yarn run v1.22.0
+$ expo start
+Starting project at C:\appDev\reactNative\uzual4b\uzual-mobile
+Expo DevTools is running at http://localhost:19002
+Opening DevTools in the browser... (press shift-d to disable)
+Starting Metro Bundler on port 19001.
+Successfully ran `adb reverse`. Localhost URLs should work on the connected Android device.
+Tunnel ready.
+
+  exp://10.0.0.197:19000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  To run the app with live reloading, choose one of:
+  • Sign in as @wolfderby in Expo client on Android or iOS. Your projects will automatically appear in the "Projects" tab.
+  • Scan the QR code above with the Expo app (Android) or the Camera app (iOS).
+  • Press a for Android emulator, or w to run on web.
+  • Press e to send a link to your phone with email.
+
+ Expo  Press ? to show a list of all available commands.
+Logs for your project will appear below. Press Ctrl+C to exit.
+Opening on Android device
+Finished building JavaScript bundle in 90395ms.
+Running application on Android SDK built for x86.
+[apollo-cache-persist] No stored cache to restore
+The following APIs have moved to separate packages and importing them from the "expo" package is deprecated: Constants.
+
+1. Add correct versions of these packages to your project using:
+
+   expo install expo-constants
+
+   If "install" is not recognized as an expo command, update your expo-cli installation.
+
+2. Change your imports so they use specific packages instead of the "expo" package:
+
+ - import { Constants } from 'expo' -> import Constants from 'expo-constants'
+
+
+register
+             
